@@ -3,7 +3,7 @@
 LedControl lc = LedControl(12, 11, 10, 1);
 // LED객체 생성
  
-byte a[8] = { B10000001, B01000010, B00100100, B00011000, B00011000, B00100100, B01000010, B10000001};
+byte a[8] = [0xc3, 0xe7, 0x7e, 0x3c, 0x3c, 0x7e, 0xe7, 0xc3];
 //https://dotmatrix.5corpion.dev/   여기에서 당신이 원하는 모양을 만드세요!!!
 
 void setup()
